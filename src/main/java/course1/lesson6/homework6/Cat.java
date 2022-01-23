@@ -7,7 +7,7 @@ public class Cat extends Animal {
     }
     public void catRunning () {
         if (this.runDistance < 0 || this.runDistance > 200) {
-            System.out.println("Cat " + this.name + " can't run " + runDistance + " m distance");
+            System.out.println("Cat " + this.name + " can't run " + runDistance + " m");
         }
         else {
             System.out.println("Cat " + this.name + " has run " + this.runDistance + " m");

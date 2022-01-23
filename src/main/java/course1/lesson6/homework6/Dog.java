@@ -7,7 +7,7 @@ public class Dog extends Animal {
     }
     public void dogRunning () {
         if (this.runDistance < 0 || this.runDistance > 500) {
-            System.out.println("Dog " + this.name + " can't run " + this.runDistance + " m distance");
+            System.out.println("Dog " + this.name + " can't run " + this.runDistance + " m");
         }
         else {
             System.out.println("Dog " + this.name + " has run " + this.runDistance + " m");
@@ -15,10 +15,10 @@ public class Dog extends Animal {
     }
     public void dogSwimming () {
         if (this.swimDistance < 0 || this.swimDistance > 10) {
-        System.out.println("Dog " + this.name + " can't swim " + this.swimDistance + " m distance");
+        System.out.println("Dog " + this.name + " can't swim " + this.swimDistance + " m");
     }
     else {
-        System.out.println("Dog " + this.name + " has swam " + this.swimDistance + " m");
+        System.out.println("Dog " + this.name + " has swum " + this.swimDistance + " m");
     }
 
     }
